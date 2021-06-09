@@ -5,7 +5,6 @@ const session = require("express-session");
 const { body, validationResult } = require("express-validator");
 
 const store = require("connect-loki");
-
 const app = express();
 const LokiStore = store(session);
 
